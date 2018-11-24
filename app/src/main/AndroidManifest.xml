@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".reservation"></activity>
+        <activity android:name=".reservation" />
+        <activity android:name=".cancel_ticket" />
+        <activity android:name=".auto_complete"></activity>
     </application>
 
 </manifest>

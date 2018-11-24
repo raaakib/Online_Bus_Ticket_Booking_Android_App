@@ -14,10 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Your Route "
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button"
@@ -33,7 +30,7 @@
         android:ems="10"
         android:hint="Type city name"
         android:inputType="textPersonName"
-        android:text="Type Boarding City Name" />
+        android:text="" />
 
     <Button
         android:id="@+id/button2"
@@ -47,8 +44,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Type city name"
         android:inputType="textPersonName"
-        android:text="Type Destination City Name" />
+        android:text="" />
 
     <Button
         android:id="@+id/button3"
@@ -63,7 +61,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Date of Travel" />
+        android:hint="Date of Travel" />
 
     <Button
         android:id="@+id/button4"

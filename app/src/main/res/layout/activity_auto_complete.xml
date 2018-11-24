@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".auto_complete">
+    <TextView
+        android:id="@+id/text_view_countries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="From :"
+        android:textSize="16dp" />
+    <AutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Select Location"
+        android:completionThreshold="0"
+        android:dropDownAnchor="@id/text_view_countries"
+        android:hint="Select Departure Location"
+        android:popupBackground="#03a9f4" />
+    <TextView
+        android:id="@+id/text_view_countries2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="To :"
+        android:textSize="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Select Location"
+        android:completionThreshold="0"
+        android:dropDownAnchor="@id/text_view_countries"
+        android:hint="Select Your Destination"
+        android:popupBackground="#03a9f4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Pick the date of travel :"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/pick_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="Click to pick" />
+
+    <EditText
+        android:id="@+id/set_picked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="DD/MM/YYYY"
+        android:text="" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="search for available bus" />
+
+</LinearLayout>

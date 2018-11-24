@@ -5,27 +5,27 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_reservation"
             android:icon="@drawable/ic_directions_bus_black_24dp"
             android:title="Bus Reservation" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_cancel"
             android:icon="@drawable/ic_cancel_black_24dp"
             android:title="Cancel Ticket" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_payment"
             android:icon="@drawable/ic_payment_black_24dp"
             android:title="Payment Options" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_contact"
             android:icon="@drawable/ic_contact_mail_black_24dp"
             android:title="Contact Us" />
         <item
-            android:id="@+id/nav_share"
+            android:id="@+id/nav_faq"
             android:icon="@drawable/ic_question_answer_black_24dp"
             android:title="FAQ" />
         <item
-            android:id="@+id/nav_send"
+            android:id="@+id/nav_report"
             android:icon="@drawable/ic_report_problem_black_24dp"
             android:title="Report Problem" />
         <item
